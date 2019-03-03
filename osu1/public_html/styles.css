@@ -1,0 +1,179 @@
+
+#container{
+	width: 280px;
+	margin: 30px auto;
+	color: #fff;
+}
+
+form{
+	text-align: center;
+}
+
+form#logout {
+	text-align: right;
+	font-size: 12px;
+	margin-bottom: 15px;
+}
+
+input[type=text],
+input[type=password]{
+	padding: 5px;
+	border-radius: 4px;
+	font-size: 14px;
+}
+
+.btn{
+	width: 100px;
+	padding: 7px;
+	border-radius: 5px;
+	color: #fff;
+	background: #00aaff;
+	box-shadow: 0 3px 0 #0088cc;
+	cursor: pointer;
+	margin: 0 auto 15px;
+}
+
+.btn:hover{
+	opacity: 0.8;
+}
+
+p.fs12{
+	font-size: 12px;
+	font-weight: normal;
+	
+
+}
+
+a{
+   color:#ffffff;
+}
+
+.err{
+	color: #ff3d00;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+h1{
+	font-size: 16px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 5px;
+}
+
+ul > li {
+	padding: 3px 0;
+}
+
+
+html, body{
+	background-image: url("../images/mario.jpg");
+	background-size: cover;
+
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+}
+
+.container{
+	text-align: center;
+	margin: auto;
+	padding: auto;
+	color:#fff;
+}
+
+.uriage{
+   
+}
+
+.syukin{
+   margin: 10px 150px 10px 100px;
+}
+
+.taikin{
+   margin: 10px 150px 10px 100px;
+}
+
+.syukin-box{
+  border-radius: 5px;
+}
+
+.taikin-box{
+  border-radius: 5px;
+}
+
+
+
+
+.nice-label{
+	font-size: 16px;
+	color: #0a0a0a;
+	text-align: center;
+}
+
+
+ 
+
+.nice-box{
+  display: block;
+  width: 50 50%;
+  margin: 10px 30px 10px 630px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #a0a0a0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.sansyutu{
+	display: inline-block;
+    position: relative;
+    padding: 0.5em 1.4em;
+    text-decoration: none;
+    background: #668ad8;/*ボタン色*/
+    color: #FFF;
+    border-bottom: solid 5px #36528c;/*ボタン色より暗めに*/
+    border-right: solid 5px #5375bd;/*ボタン色より暗めに*/
+}
+
+.square_btn:before{    
+    content: " ";
+    position: absolute;
+    bottom: -5px;
+    left: -1px;
+    width: 0;
+    height: 0;
+    border-width: 0 6px 6px 0px;
+    border-style: solid;
+    border-color: transparent;
+    border-bottom-color: #FFF;
+}
+
+.square_btn:after{   
+    content: " ";
+    position: absolute;
+    top: -1px;
+    right: -5px;
+    width: 0;
+    height: 0;
+    border-width: 0px 6px 6px 0px;
+    border-style: solid;
+    border-color: #FFF;
+    border-bottom-color: transparent;
+}
+
+.square_btn:active{ /*ボタンを押したとき*/
+    border:none;
+    -ms-transform: translate(6px,6px);
+    -webkit-transform: translate(6px,6px);
+    transform: translate(6px,6px);
+}
+
+.square_btn:active:after,.square_btn:active:before {
+    content: none;/*ボタンを押すと線が消える*/
+}
+
+.AA{
+	text-align: center;
+}
+
